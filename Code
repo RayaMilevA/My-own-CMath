@@ -1,0 +1,67 @@
+// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+//Functions
+
+//Task - Собствен cmath
+
+int absFunction(int a) {
+    return abs(a);
+}
+
+int powFunction(int b, unsigned int c) {
+    return pow(b, c);
+}
+
+double minFunction(double d, double e) {
+    return min(d, e);
+}
+
+double maxFunction(double f, double g) {
+    return max(f, g);
+}
+
+int minOfThreeFunction(int h, int i, int j) {
+    return min(min(h, i), j);
+}
+
+int maxOfThreeFunction(int k, int l, int m) {
+    return max(max(k, l), m);
+}
+
+bool isUpperFunction(char n) {
+    return isupper(n);
+}
+
+bool isLowerFunction(char o) {
+    return islower(o);
+}
+
+bool isLetterFunction(char p) {
+    return (p >= 'a' && p <= 'z' || p >= 'A' && p <= 'Z');
+}
+
+bool isDigitFunction(char q) {
+    return (q >= 48 && q <= 57);
+}
+
+int main()
+{
+    int result = 0;
+
+    //result = absFunction (-1);
+    //result = powFunction(2 , 3);
+    //result = minFunction(4.0 , 5.0);
+    //result = maxFunction(6.0 , 7.0);
+    //result = minOfThreeFunction(8 , 9 , 10);
+    //result = maxOfThreeFunction(11 , 12 , 13);
+    //result = isUpperFunction('N');
+    //result = isLowerFunction('o');
+    //result = isLetterFunction('p');
+    //result = isDigitFunction('9');
+
+    cout << result;
+}
